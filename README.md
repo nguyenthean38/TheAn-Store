@@ -5,6 +5,22 @@ viết bằng **React 19 + Tailwind CSS v4**, sẵn sàng nối backend.
 
 🔗 **Demo:** https://thean-store.vercel.app — tài khoản demo `alex@example.com` / `Password1!`, mã giảm giá `WELCOME15`.
 
+![Trang chủ Thean store](docs/screenshots/01-home.jpg)
+
+## Ảnh giao diện
+
+| Trang chủ | Danh mục sản phẩm |
+|---|---|
+| ![Trang chủ](docs/screenshots/02-home-scroll.jpg) | ![Danh mục](docs/screenshots/03-category.jpg) |
+| **Chi tiết sản phẩm** | **Giỏ hàng** |
+| ![Chi tiết sản phẩm](docs/screenshots/04-product.jpg) | ![Giỏ hàng](docs/screenshots/05-cart.jpg) |
+| **Thanh toán** | **Tài khoản** |
+| ![Thanh toán](docs/screenshots/06-checkout.jpg) | ![Tài khoản](docs/screenshots/07-account.jpg) |
+| **Đơn hàng** | **Thean Club** |
+| ![Đơn hàng](docs/screenshots/08-orders.jpg) | ![Thean Club](docs/screenshots/09-club.jpg) |
+| **Giao diện điện thoại** | |
+| <img src="docs/screenshots/10-mobile-home.jpg" width="48%" alt="Điện thoại – Trang chủ" /> <img src="docs/screenshots/11-mobile-product.jpg" width="48%" alt="Điện thoại – Sản phẩm" /> | |
+
 ```
 adidas-store/
 ├── docs/
