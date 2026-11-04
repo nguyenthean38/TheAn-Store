@@ -3,6 +3,8 @@
 Frontend thương mại điện tử **Thean store** (giao diện tiếng Việt), dựng theo bộ thiết kế tham khảo `adidas web Jun 2025` (133 màn hình),
 viết bằng **React 19 + Tailwind CSS v4**, sẵn sàng nối backend.
 
+🔗 **Demo:** https://thean-store.vercel.app — tài khoản demo `alex@example.com` / `Password1!`, mã giảm giá `WELCOME15`.
+
 ```
 adidas-store/
 ├── docs/
@@ -66,6 +68,13 @@ Luồng dữ liệu: `Page/Component → hooks/useX → api/services/x → api/h
    VITE_API_URL=http://localhost:8080/api/v1
    ```
 3. Bật CORS cho `http://localhost:5173`, cho phép header `Authorization`, `X-Cart-Id`, `Content-Type`.
+4. Khi deploy, thêm domain API vào `connect-src` trong `frontend/vercel.json` (CSP), nếu không trình duyệt sẽ chặn request.
+
+## Deploy (Vercel)
+
+- Root Directory: `frontend`, preset **Vite** (build `npm run build`, output `dist`).
+- `frontend/vercel.json` cấu hình SPA rewrite (F5 ở mọi trang không bị 404), header bảo mật (CSP, HSTS, X-Frame-Options…) và cache.
+- Không cần biến môi trường: mặc định chạy mock API. Khi có backend, đặt `VITE_USE_MOCK=false` và `VITE_API_URL` trong Vercel → Settings → Environment Variables.
 
 Không cần sửa component nào — chỉ tầng `api/http.js` đổi đích gọi.
 
