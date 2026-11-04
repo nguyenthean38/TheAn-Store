@@ -1,0 +1,10 @@
+/** Section trang chủ (SeoBlock cũng dùng lại ở PLP). */
+export { PromoStrip } from './PromoStrip'
+export { HeroBanner } from './HeroBanner'
+export { ProductTabsCarousel } from './ProductTabsCarousel'
+export { PromoCards } from './PromoCards'
+export { PopularSearches } from './PopularSearches'
+export { CategoryTiles } from './CategoryTiles'
+export { RelatedResources } from './RelatedResources'
+export { SeoLinkColumns } from './SeoLinkColumns'
+export { SeoBlock } from './SeoBlock'

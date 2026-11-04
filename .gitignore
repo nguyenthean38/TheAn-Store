@@ -1,0 +1,18 @@
+# dependencies & build
+node_modules/
+dist/
+
+# env (giữ .env.example)
+.env
+.env.local
+.env.*.local
+
+# logs / OS / editor
+*.log
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# công cụ kiểm thử
+.playwright-mcp/

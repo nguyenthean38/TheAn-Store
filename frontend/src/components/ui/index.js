@@ -1,0 +1,10 @@
+/** Barrel export của design system — import từ '@/components/ui'. */
+export { Button, IconButton } from './Button'
+export { Input, Textarea, Select } from './Input'
+export { Checkbox, Radio } from './Choice'
+export { Modal, Drawer } from './Overlay'
+export { AccordionItem, Tabs } from './Disclosure'
+export { Badge, Rating, Price, Breadcrumbs, SizeGrid, ColorSwatches, Spinner, PageSpinner, Skeleton, EmptyState, Pagination } from './Display'
+export { Carousel } from './Carousel'
+export { Toaster } from './Toaster'
+export * from './icons'
